@@ -16,7 +16,12 @@ const disneyItinerary = {
 		return rand;
 	},
 	printItinerary() {
-		console.log(`I hope you are ready for a magical day! Here is your itinerary for your afternoon at Disney's Magic Kingdom: Fast pass 3:30pm ${this.attraction}, Dinner 5:00pm ${this.dining}, and our recommended show for the day is ${this.entertainment}.`);
+		console.log(`I hope you're ready for a magical day! 
+Here is your itinerary for your afternoon at Disney's Magic Kingdom: 
+		
+- Fast pass 3:30pm ${this.attraction}
+- Dinner 5:00pm ${this.dining}
+- Recommended show for the day is ${this.entertainment}`);
 	}
 } 
 
